@@ -1,4 +1,4 @@
-package com.regent;
+package com.regent.utils;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.net.URL;
 
 public final class ConnectionUtils {
     private ConnectionUtils() {}
-    static StringBuilder extractJson(final String urlString) throws IOException {
+    public static StringBuilder extractJson(final String urlString) throws IOException {
         final URL url = new URL(urlString);
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
 

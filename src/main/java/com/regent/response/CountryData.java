@@ -1,4 +1,4 @@
-package com.regent;
+package com.regent.response;
 
 public class CountryData {
     private String country;

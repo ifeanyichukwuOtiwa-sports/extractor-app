@@ -1,4 +1,4 @@
-package com.regent;
+package com.regent.response;
 
 import java.util.Map;
 

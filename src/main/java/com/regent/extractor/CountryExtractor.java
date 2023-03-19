@@ -1,10 +1,13 @@
-package com.regent;
+package com.regent.extractor;
 
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
 import com.google.gson.Gson;
+import com.regent.utils.ConnectionUtils;
+import com.regent.response.CountryData;
+import com.regent.response.CountryResponse;
 
 public class CountryExtractor {
 
